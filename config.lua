@@ -49,6 +49,10 @@ Config.Products = {
         {name = 'fitbit',            price = 400, amount = 150, info = {}, type = 'item'},
         {name = 'cleaningkit',       price = 150, amount = 150, info = {}, type = 'item'},
         {name = 'advancedrepairkit', price = 500, amount = 50,  info = {}, type = 'item', requiredJob = { 'mechanic' }},
+        {name = "screwdriver",       price = 250, amount = 50,  info = {}, type = "item"}, -- mz-scrap
+        {name = "wd40",              price = 40,  amount = 50,  info = {}, type = "item"}, -- mz-scrap
+        {name = "blowtorch",         price = 1000, amount = 50, info = {}, type = "item"}, -- mz-scrap
+        {name = "weapon_battleaxe",  price = 750, amount = 50,  info = {}, type = "item"}, -- mz-lumberjack
     },
     ['weedshop'] = {
         {name = 'joint',          price = 10,  amount = 50,   info = {}, type = 'item'},
