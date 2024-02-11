@@ -27,6 +27,9 @@ Config.Products = {
         {name = 'bandage',       price = 100, amount = 50,   info = {}, type = 'item'},
         {name = 'lighter',       price = 2,   amount = 50,   info = {}, type = 'item'},
         {name = 'rolling_paper', price = 2,   amount = 5000, info = {}, type = 'item'},
+        {name = 'backpack1',     price = 200, amount = 5000, info = {}, type = 'item'}, -- keep-bags
+        {name = 'backpack2',     price = 300, amount = 5000, info = {}, type = 'item'}, -- keep-bags
+        {name = 'duffle1',       price = 300, amount = 5000, info = {}, type = 'item'}, -- keep-bags
     },
     ['liquor'] = {
         {name = 'beer',    price = 7,  amount = 50, info = {}, type = 'item'},
