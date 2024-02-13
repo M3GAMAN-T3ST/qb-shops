@@ -14,6 +14,13 @@ Config.SellCasinoChips = {
 -- optional requiredLicense = {'driver', 'business', 'weapon'}
 
 Config.Products = {
+    ["frisbee"] = {
+		{name = "frisbee",   price = 500, amount = 10, info = {}, type = "item"}, -- gg-frisbeegolf
+        {name = "frisbee_r", price = 500, amount = 10, info = {}, type = "item"}, -- gg-frisbeegolf
+        {name = "frisbee_g", price = 500, amount = 10, info = {}, type = "item"}, -- gg-frisbeegolf
+        {name = "frisbee_b", price = 500, amount = 10, info = {}, type = "item"}, -- gg-frisbeegolf
+        {name = "frisbee_y", price = 500, amount = 10, info = {}, type = "item"}, -- gg-frisbeegolf
+	},
     ['normal'] = {
         {name = 'tosti',         price = 2,   amount = 50,   info = {}, type = 'item'},
         {name = 'water_bottle',  price = 2,   amount = 50,   info = {}, type = 'item'},
@@ -91,6 +98,22 @@ Config.Products = {
 }
 
 Config.Locations = {
+    -- gg-frisbeegolf
+    ["frisbeeshop"] = { 
+		["label"] = "Frisbee Shop",
+		["coords"] = vector4(279.3, 6790.43, 15.94, 270.37), -- using ymap
+		--["coords"] = vector4(281.93, 6789.18, 15.7, 270.37), -- not using ymap
+		["ped"] = 'cs_omega',
+		["scenario"] = "WORLD_HUMAN_STAND_IMPATIENT",
+		["radius"] = 1.5,
+		["targetIcon"] = "fa-solid fa-cart-shopping",
+		["targetLabel"] = "What frisbees do you have?",
+		["products"] = Config.Products["frisbee"],
+		["showblip"] = true,
+		["blipsprite"] = 540,
+		["blipscale"] = 0.6,
+		["blipcolor"] = 0
+	},
     -- 24/7 Locations
     ['247supermarket'] = {
         ['label'] = '24/7 Supermarket',
