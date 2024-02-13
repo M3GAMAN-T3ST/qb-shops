@@ -65,6 +65,8 @@ Config.Products = {
         {name = "blowtorch",         price = 1000, amount = 50, info = {}, type = "item"}, -- mz-scrap
         {name = "weapon_battleaxe",  price = 750, amount = 50,  info = {}, type = "item"}, -- mz-lumberjack
         {name = "torque_wrench",     price = 500, amount = 50,  info = {}, type = "item"}, -- hg-wheel
+        {name = "cleanershovel",     price = 750, amount = 50,  info = {}, type = "item"}, -- qb-gardencleaner
+        {name = "eblower",           price = 500, amount = 50,  info = {}, type = "item"}, -- qb-gardencleaner
     },
     ['weedshop'] = {
         {name = 'joint',          price = 10,  amount = 50,   info = {}, type = 'item'},
