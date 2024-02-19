@@ -38,6 +38,7 @@ Config.Products = {
         {name = 'backpack2',     price = 300, amount = 5000, info = {}, type = 'item'}, -- keep-bags
         {name = 'duffle1',       price = 300, amount = 5000, info = {}, type = 'item'}, -- keep-bags
         {name = 'laptop',        price = 1000, amount = 5000, info = {}, type = 'item'}, -- jl-laptop
+        {name = 'skateboard',    price = 600, amount = 5000, info = {}, type = 'item'}, -- astudios-skateing
     },
     ['liquor'] = {
         {name = 'beer',    price = 7,  amount = 50, info = {}, type = 'item'},
@@ -67,6 +68,7 @@ Config.Products = {
         {name = "torque_wrench",     price = 500, amount = 50,  info = {}, type = "item"}, -- hg-wheel
         {name = "cleanershovel",     price = 750, amount = 50,  info = {}, type = "item"}, -- qb-gardencleaner
         {name = "eblower",           price = 500, amount = 50,  info = {}, type = "item"}, -- qb-gardencleaner
+        {name = "carjack",           price = 1000, amount = 50,  info = {}, type = "item"}, -- ixhal-carjack
     },
     ['weedshop'] = {
         {name = 'joint',          price = 10,  amount = 50,   info = {}, type = 'item'},
