@@ -90,6 +90,8 @@ Config.Products = {
         {name = 'binoculars',  price = 50,   amount = 50, info = {}, type = 'item'},
         {name = 'diving_gear', price = 2500, amount = 10, info = {}, type = 'item'},
         {name = 'diving_fill', price = 500,  amount = 10, info = {}, type = 'item'},
+        {name = 'fishingrod',  price = 500,  amount = 10, info = {}, type = 'item'}, -- wasabi-fishing
+        {name = 'fishbait',    price = 5,    amount = 50, info = {}, type = 'item'}, -- wasabi-fishing
     },
     ['weapons'] = {
         {name = 'weapon_knife',         price = 250,  amount = 250, info = {}, type = 'weapon'},
@@ -104,7 +106,7 @@ Config.Products = {
         {name = 'casinochips', price = 1, amount = 999999, info = {}, type = 'item'}
     },
     ['keys'] = {
-        {name = 'stashkey', price = 250, amount = 50, info = {}, type = 'item'}
+        {name = 'stashkey', price = 250, amount = 50, info = {}, type = 'item'} -- hh_sskey
     },
 }
 
