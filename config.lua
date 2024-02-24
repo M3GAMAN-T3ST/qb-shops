@@ -22,23 +22,27 @@ Config.Products = {
         {name = "frisbee_y", price = 500, amount = 10, info = {}, type = "item"}, -- gg-frisbeegolf
 	},
     ['normal'] = {
-        {name = 'tosti',         price = 2,   amount = 50,   info = {}, type = 'item'},
-        {name = 'water_bottle',  price = 2,   amount = 50,   info = {}, type = 'item'},
-        {name = 'kurkakola',     price = 2,   amount = 50,   info = {}, type = 'item'},
-        {name = 'twerks_candy',  price = 2,   amount = 50,   info = {}, type = 'item'},
-        {name = 'snikkel_candy', price = 2,   amount = 50,   info = {}, type = 'item'},
-        {name = 'sandwich',      price = 2,   amount = 50,   info = {}, type = 'item'},
-        {name = 'beer',          price = 7,   amount = 50,   info = {}, type = 'item'},
-        {name = 'whiskey',       price = 10,  amount = 50,   info = {}, type = 'item'},
-        {name = 'vodka',         price = 12,  amount = 50,   info = {}, type = 'item'},
-        {name = 'bandage',       price = 100, amount = 50,   info = {}, type = 'item'},
-        {name = 'lighter',       price = 2,   amount = 50,   info = {}, type = 'item'},
-        {name = 'rolling_paper', price = 2,   amount = 5000, info = {}, type = 'item'},
-        {name = 'backpack1',     price = 200, amount = 5000, info = {}, type = 'item'}, -- keep-bags
-        {name = 'backpack2',     price = 300, amount = 5000, info = {}, type = 'item'}, -- keep-bags
-        {name = 'duffle1',       price = 300, amount = 5000, info = {}, type = 'item'}, -- keep-bags
-        {name = 'laptop',        price = 1000, amount = 5000, info = {}, type = 'item'}, -- jl-laptop
-        {name = 'skateboard',    price = 600, amount = 5000, info = {}, type = 'item'}, -- astudios-skateing
+        {name = 'tosti',         price = 2,    amount = 50,   info = {}, type = 'item'},
+        {name = 'water_bottle',  price = 2,    amount = 50,   info = {}, type = 'item'},
+        {name = 'kurkakola',     price = 2,    amount = 50,   info = {}, type = 'item'},
+        {name = 'twerks_candy',  price = 2,    amount = 50,   info = {}, type = 'item'},
+        {name = 'snikkel_candy', price = 2,    amount = 50,   info = {}, type = 'item'},
+        {name = 'sandwich',      price = 2,    amount = 50,   info = {}, type = 'item'},
+        {name = 'beer',          price = 7,    amount = 50,   info = {}, type = 'item'},
+        {name = 'whiskey',       price = 10,   amount = 50,   info = {}, type = 'item'},
+        {name = 'vodka',         price = 12,   amount = 50,   info = {}, type = 'item'},
+        {name = 'bandage',       price = 100,  amount = 50,   info = {}, type = 'item'},
+        {name = 'lighter',       price = 2,    amount = 50,   info = {}, type = 'item'},
+        {name = 'rolling_paper', price = 2,    amount = 50,   info = {}, type = 'item'},
+        {name = 'backpack1',     price = 200,  amount = 50,   info = {}, type = 'item'}, -- keep-bags
+        {name = 'backpack2',     price = 300,  amount = 50,   info = {}, type = 'item'}, -- keep-bags
+        {name = 'duffle1',       price = 300,  amount = 50,   info = {}, type = 'item'}, -- keep-bags
+        {name = 'laptop',        price = 1000, amount = 50,   info = {}, type = 'item'}, -- jl-laptop
+        {name = 'skateboard',    price = 600,  amount = 50,   info = {}, type = 'item'}, -- astudios-skateing
+        {name = 'holster',       price = 200,  amount = 50,   info = {}, type = 'item'}, -- qb-holster
+        {name = 'bakingsoda',    price = 100,  amount = 50,   info = {}, type = 'item'}, -- md-drugs
+        {name = 'emptyvial',     price = 100,  amount = 50,   info = {}, type = 'item'}, -- md-drugs
+        {name = 'needle',    	 price = 100,  amount = 50,   info = {}, type = 'item'}, -- md-drugs
     },
     ['liquor'] = {
         {name = 'beer',    price = 7,  amount = 50, info = {}, type = 'item'},
@@ -98,6 +102,9 @@ Config.Products = {
     },
     ['casino'] = {
         {name = 'casinochips', price = 1, amount = 999999, info = {}, type = 'item'}
+    },
+    ['keys'] = {
+        {name = 'stashkey', price = 250, amount = 50, info = {}, type = 'item'}
     },
 }
 
@@ -734,5 +741,21 @@ Config.Locations = {
         ['blipscale'] = 0.8,
         ['blipcolor'] = 0,
         ['delivery'] = vector4(-1507.64, 1505.52, 115.29, 262.2)
+    },
+
+    ['keyshop'] = {
+        ['label'] = 'Pats Keys',
+        ['coords'] = vector4(158.15, 6654.47, 31.67, 127.9),
+        ['ped'] = 'csb_cletus',
+        ['scenario'] = 'WORLD_HUMAN_STAND_MOBILE',
+        ['radius'] = 1.5,
+        ['targetIcon'] = 'fa-solid fa-key',
+        ['targetLabel'] = 'Buy Keys',
+        ['products'] = Config.Products['keys'],
+        ['showblip'] = true,
+        ['blipsprite'] = 811,
+        ['blipscale'] = 0.8,
+        ['blipcolor'] = 29,
+        ['delivery'] = vector4(156.96, 6657.28, 31.56, 226.83)
     },
 }
