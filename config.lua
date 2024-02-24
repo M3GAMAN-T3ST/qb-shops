@@ -43,6 +43,13 @@ Config.Products = {
         {name = 'bakingsoda',    price = 100,  amount = 50,   info = {}, type = 'item'}, -- md-drugs
         {name = 'emptyvial',     price = 100,  amount = 50,   info = {}, type = 'item'}, -- md-drugs
         {name = 'needle',    	 price = 100,  amount = 50,   info = {}, type = 'item'}, -- md-drugs
+        {name = 'redwoodpack',   price = 250,  amount = 50,   info = {}, type = 'item'}, -- lusty94_smoking
+        {name = 'yukonpack',     price = 250,  amount = 50,   info = {}, type = 'item'}, -- lusty94_smoking
+        {name = '69brandpack',   price = 250,  amount = 50,   info = {}, type = 'item'}, -- lusty94_smoking
+        {name = 'debonairepack', price = 250,  amount = 50,   info = {}, type = 'item'}, -- lusty94_smoking
+        {name = 'lighter',       price = 5,    amount = 50,   info = {}, type = 'item'}, -- lusty94_smoking
+        {name = 'vape',          price = 25,   amount = 50,   info = {}, type = 'item'}, -- lusty94_smoking
+        {name = 'vapejuice',     price = 25,   amount = 50,   info = {}, type = 'item'}, -- lusty94_smoking
     },
     ['liquor'] = {
         {name = 'beer',    price = 7,  amount = 50, info = {}, type = 'item'},
@@ -103,10 +110,10 @@ Config.Products = {
         {name = 'weapon_vintagepistol', price = 4000, amount = 5,   info = {}, type = 'weapon', requiredLicense = { 'weapon' }},
     },
     ['casino'] = {
-        {name = 'casinochips', price = 1, amount = 999999, info = {}, type = 'item'}
+        {name = 'casinochips', price = 1, amount = 999999, info = {}, type = 'item'},
     },
     ['keys'] = {
-        {name = 'stashkey', price = 250, amount = 50, info = {}, type = 'item'} -- hh_sskey
+        {name = 'stashkey', price = 250, amount = 50, info = {}, type = 'item'}, -- hh_sskey
     },
 }
 
