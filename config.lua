@@ -115,6 +115,10 @@ Config.Products = {
     ['keys'] = {
         {name = 'stashkey', price = 250, amount = 50, info = {}, type = 'item'}, -- hh_sskey
     },
+    ['meds'] = {
+        {name = 'suicidepill', price = 250, amount = 50, info = {}, type = 'item'}, -- suicidepill
+        {name = 'fakesuicidepill', price = 300, amount = 50, info = {}, type = 'item'}, -- suicidepill
+    },
 }
 
 Config.Locations = {
@@ -766,5 +770,21 @@ Config.Locations = {
         ['blipscale'] = 0.8,
         ['blipcolor'] = 29,
         ['delivery'] = vector4(156.96, 6657.28, 31.56, 226.83)
+    },
+
+    ['pharmacy'] = {
+        ['label'] = 'Pharmacy',
+        ['coords'] = vector4(316.34, -587.24, 43.29, 197.76),
+        ['ped'] = 's_m_m_doctor_01',
+        ['scenario'] = 'WORLD_HUMAN_STAND_MOBILE',
+        ['radius'] = 1.5,
+        ['targetIcon'] = 'fa-solid fa-syringe',
+        ['targetLabel'] = 'Buy Medicine',
+        ['products'] = Config.Products['meds'],
+        ['showblip'] = true,
+        ['blipsprite'] = 51,
+        ['blipscale'] = 0.8,
+        ['blipcolor'] = 35,
+        ['delivery'] = vector4(319.37, -560.21, 28.74, 204.07)
     },
 }
