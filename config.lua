@@ -116,8 +116,20 @@ Config.Products = {
         {name = 'stashkey', price = 250, amount = 50, info = {}, type = 'item'}, -- hh_sskey
     },
     ['meds'] = {
-        {name = 'suicidepill', price = 250, amount = 50, info = {}, type = 'item'}, -- suicidepill
-        {name = 'fakesuicidepill', price = 300, amount = 50, info = {}, type = 'item'}, -- suicidepill
+        {name = 'suicidepill',      price = 250, amount = 50, info = {}, type = 'item'}, -- suicidepill
+        {name = 'fakesuicidepill',  price = 300, amount = 50, info = {}, type = 'item'}, -- suicidepill
+    },
+    ['meds1'] = {
+        {name = 'tab_paper',      price = 50,  amount = 50, info = {}, type = 'item'}, -- md-drugs
+        {name = 'bakingsoda',     price = 25,  amount = 50, info = {}, type = 'item'}, -- md-drugs
+        {name = 'isosafrole',     price = 25,  amount = 50, info = {}, type = 'item'}, -- md-drugs
+        {name = 'mdp2p',          price = 25,  amount = 50, info = {}, type = 'item'}, -- md-drugs       
+        {name = 'emptyvial',      price = 5,   amount = 50, info = {}, type = 'item'}, -- md-drugs
+        {name = 'needle',         price = 5,   amount = 50, info = {}, type = 'item'}, -- md-drugs
+        {name = 'flour',          price = 25,  amount = 50, info = {}, type = 'item'}, -- md-drugs
+        {name = 'chocolate',      price = 25,  amount = 50, info = {}, type = 'item'}, -- md-drugs
+        {name = 'butane',         price = 25,  amount = 50, info = {}, type = 'item'}, -- md-drugs
+        {name = 'butanetorch',    price = 100, amount = 50, info = {}, type = 'item'}, -- md-drugs
     },
 }
 
@@ -786,5 +798,21 @@ Config.Locations = {
         ['blipscale'] = 0.8,
         ['blipcolor'] = 35,
         ['delivery'] = vector4(319.37, -560.21, 28.74, 204.07)
+    },
+    
+    ['pharmacy1'] = {
+        ['label'] = 'Pharmacy',
+        ['coords'] = vector4(71.12, -813.1, 31.34, 267.13), 
+        ['ped'] = 's_m_m_doctor_01',
+        ['scenario'] = 'WORLD_HUMAN_STAND_MOBILE',
+        ['radius'] = 1.5,
+        ['targetIcon'] = 'fa-solid fa-syringe',
+        ['targetLabel'] = 'Buy Medicine',
+        ['products'] = Config.Products['meds1'],
+        ['showblip'] = true,
+        ['blipsprite'] = 51,
+        ['blipscale'] = 0.8,
+        ['blipcolor'] = 35,
+        ['delivery'] = vector4(39.75, -826.53, 31.13, 341.96)
     },
 }
