@@ -1,7 +1,8 @@
 fx_version 'cerulean'
 game 'gta5'
-
-description 'QB-Shops'
+lua54 'yes'
+author 'Kakarot'
+description 'Allows players to purchase items from various shops around the map'
 version '1.2.1'
 lua54 'yes'
 author 'Kakarot'
