@@ -3,6 +3,9 @@ game 'gta5'
 
 description 'QB-Shops'
 version '1.2.1'
+lua54 'yes'
+author 'Kakarot'
+description 'Allows players to purchase items from various shops around the map'
 
 shared_scripts {
     '@PolyZone/client.lua',
@@ -20,4 +23,3 @@ client_script 'client/main.lua'
 server_script 'server/main.lua'
 
 file 'json/shops-inventory.json'
-lua54 'yes'
